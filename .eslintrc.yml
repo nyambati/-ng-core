@@ -3,10 +3,13 @@ plugins:
   - import
 globals:
   angular: true
+ 
 env:
   browser: true
   node: true
+  mocha: true
 rules:
   consistent-return: 0
   no-param-reassign: 0
   arrow-parens: 0
+  import/prefer-default-export: 0
