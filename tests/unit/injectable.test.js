@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Injectable } from '../';
+import { Injectable } from '../../';
 
 
 describe('@Injectable Decorator', () => {

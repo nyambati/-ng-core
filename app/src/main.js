@@ -1,5 +1,8 @@
 import { NgModule, bootstrap } from '../../';
-import { NewApp, MyDirective, MyService, StringReverse } from './component'
+import NewApp from './component'
+import MyDirective from './directive'
+import MyService from './services'
+import StringReverse from './pipe'
 
 @NgModule({
   name: 'ng-redux',

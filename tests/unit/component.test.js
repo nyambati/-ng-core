@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Component } from '../';
+import { Component } from '../../';
 
 
 describe('@Component Decorator', () => {

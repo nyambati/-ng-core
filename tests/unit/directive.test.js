@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Directive } from '../';
+import { Directive } from '../../';
 
 
 describe('@Directive Decorator', () => {

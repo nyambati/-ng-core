@@ -37,12 +37,12 @@ bootstrap('app')
 
 syntax:
 ```js
-@NgModule(<config>)
+@NgModule(<config>);
 ```
 example
 
 ```js
-import {NgModule, bootstrap} from 'ng-core;
+import {NgModule, bootstrap} from 'ng-core';
 
 @NgModule({
   name:'app'
@@ -84,7 +84,7 @@ bootstrap(App.name)
 
 ```
 
-Component: this is a wrapper of angular.component() method, the confuration object is the same as angular.component with exclusion of controller and introduction of selector property.
+Component: this is a wrapper of `angular.component()` method, the confuration object is the same as `angular.component` with exclusion of controller and introduction of selector property.
 
 syntax
 ```js
@@ -103,7 +103,7 @@ export class MyApp {}
 
 ```
 
-Directive: this is wrapper of the angular.directive()
+Directive: this is wrapper of the `angular.directive()`
 
 
 syntax
@@ -120,13 +120,13 @@ import {Directive} from 'ng-core'
 
 export class MyDirective {
   render() {
-    
+
   }
 }
 
 ```
 
-Pipe: this a wrapper of angular.filter() method
+Pipe: this a wrapper of `angular.filter()` method
 
 syntax
 ```js
@@ -141,10 +141,15 @@ import {Pipe} from 'ng-core'
 })
 
 export class MyFilter {}
-
+`
+```
+## Testing
+Tests for this package has been written using mocha, benv and chai. To run the test,
+```
+$ npm test
 ```
 
-
+Notice, this package was written for learning perposes only and has not been tested for perfomance and therefore should be further evaluated before being used for heavy production builds.
 
 
 

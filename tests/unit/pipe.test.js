@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Pipe } from '../';
+import { Pipe } from '../../';
 
 
 describe('@Pipe Decorator', () => {

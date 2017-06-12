@@ -1,32 +1,32 @@
 import { expect } from 'chai';
-import { App } from './helpers/test.utils';
+import { App } from '../helpers/test.utils';
 import {
   MyComponent1,
   MyComponent2,
   MyComponent3,
-} from './helpers/sample.components';
+} from '../helpers/sample.components';
 import {
   MyDirective1,
   MyDirective2,
   MyDirective3,
-} from './helpers/sample.directives';
+} from '../helpers/sample.directives';
 import {
   Filter1,
   Filter2,
   Filter3,
-} from './helpers/sample.pipes';
+} from '../helpers/sample.pipes';
 
 import {
   MyInjectableService1,
   MyInjectableService2,
   MyInjectableService3,
-} from './helpers/sample.service';
+} from '../helpers/sample.service';
 import {
   mapComponentsToModule,
   mapDirectivesToModule,
   mapPipesToModule,
   mapServicesToModule,
-} from '../lib/utils';
+} from '../../lib/utils';
 
 const app = new App();
 
